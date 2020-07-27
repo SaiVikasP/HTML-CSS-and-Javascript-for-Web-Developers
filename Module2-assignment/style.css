@@ -1,0 +1,114 @@
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+    box-sizing: border-box;
+    clear: both;
+    padding: 10px;
+    border: 20px;
+    
+}
+* {
+	box-sizing: border-box;
+}
+h1 {
+	text-align: center;
+	padding: 10px 10px 25px 10px;
+	font-size: 1.75em;
+	border-bottom: 25px;
+	font-weight: bold;
+}
+
+h3 {
+	text-align: center;
+	float: right;
+	color: white;
+	clear: left;
+	border:1px solid black;
+	position:relative;
+	top: 0px;
+	right: 0px;
+	margin: 0px;
+	padding: 0px 10px 0px 10px;
+	font-size: 1.25em;
+
+}
+.box1 h3 {
+	background-color: maroon;
+}
+.box2 h3 {
+	background-color: red;
+}
+.box3 h3 {
+	background-color: midnightblue;
+}
+
+section {
+	background-color: grey;
+	border: 1px solid black;
+	position: relative;
+	float: left;
+	
+	
+}
+
+p {
+	clear: both;
+	padding: 10px;
+	box-sizing: border-box;
+	font-size: 1em;
+}
+
+@media (min-width: 992px) 
+{
+	.box1
+	{
+		width: 31%;
+		margin: 1%;
+	}
+	.box2
+	{
+		width: 31%;
+		margin: 1%;
+	}
+	.box3
+	{
+		width: 31%;
+		margin: 1%;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) 
+{
+	.box1
+	{
+		width: 48%;
+		margin: 1%;
+	}
+	.box2
+	{
+		width: 48%;
+		margin: 1%;
+	}
+	.box3
+	{
+		width: 98%;
+		margin: 1%;
+	}
+}
+@media (max-width: 767px) 
+{
+	.box1
+	{
+		width: 98%;
+		margin: 1%;
+	}
+	.box2
+	{
+		width: 98%;
+		margin: 1%;
+	}
+	.box3
+	{
+		width: 98%;
+		margin: 1%;
+	}
+}
