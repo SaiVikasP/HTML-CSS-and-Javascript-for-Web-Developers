@@ -13,7 +13,7 @@ body {
 h1 {
 	text-align: center;
 	padding: 10px 10px 25px 10px;
-	font-size: 1.75em;
+	font-size: 175%;
 	border-bottom: 25px;
 	font-weight: bold;
 }
@@ -29,7 +29,7 @@ h3 {
 	right: 0px;
 	margin: 0px;
 	padding: 0px 10px 0px 10px;
-	font-size: 1.25em;
+	font-size: 125%;
 
 }
 .box1 h3 {
@@ -41,6 +41,11 @@ h3 {
 .box3 h3 {
 	background-color: midnightblue;
 }
+div {
+    margin-top: 5%;
+    position: absolute;
+}
+
 
 section {
 	background-color: grey;
@@ -55,7 +60,7 @@ p {
 	clear: both;
 	padding: 10px;
 	box-sizing: border-box;
-	font-size: 1em;
+	font-size: 100%;
 }
 
 @media (min-width: 992px) 
