@@ -5,13 +5,30 @@
 	<style type="text/css">
 		body {
 			align-items: center;
-			padding-top:5%;
-			padding-left: 33%;
+			padding-top:10%;
+			padding-left: 33.33%;
+
 		}
-		h3 {
+		a:link, a:visited {
+			text-decoration: none;
+			background-color: white;
+			border: 1px solid black;
+			color: black;
+			display: block;
+			width: 50px;
+			text-align: center;
+		}
+		a:hover, a:active {
+			border: 1px solid red;
+			background-color: black;
+			color: white;
+		}
+		h2 {
 			text-align: center;
 			border-bottom: 1px solid black;
-			width: 300px;
+			/*width: 300px;*/
+			color: navy;
+			margin: 15px
 		}
 		.Username {
 			border:1px solid black;
@@ -22,7 +39,9 @@
 		.box {
 			width: 300px;
 			border: 2px solid black;
-			height: 400px;
+			background-color: cornsilk;
+			border-radius: 10px;
+			/*height: 400px;*/
 
 		}
 		.Content {
@@ -38,17 +57,17 @@
 	</style>
 </head>
 <body>
-	<div class="box">
-		<h3>Invite to Board</h3>
+	<section class="box">
+		<h2>Invite to Board</h2>
 		<div class="Username">Username</div>
 		<div class="Content">Content</div>
-		<p>Send Invitation</p>
-		<div style="border-top: 1px solid black; margin: 5px">
+		<div><p>Send Invitation</p></div>
+		<div style="border-top: 1px solid black;margin: 15px;height: 80px">
 			
-			<h4>Invite<a href="new.html" style="float: right;">Link</a></h4>
-			<div>Anyone with link can join</div>
+			<h4>Want to see Preethi<a href="new2.html" style="float: right;">Link</a></h4>
+			<div>Click on the link</div>
 		</div>
-	</div>
+	</section>
 
 </body>
 </html>
