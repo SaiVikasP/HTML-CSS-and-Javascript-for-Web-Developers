@@ -102,6 +102,12 @@ body {
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
+  #logo-img {
+    background: url('images/logo5.png') no-repeat;
+    width: 60px;
+    height: 60px;
+    margin: 5px 5px 5px 0;
+  }
 
 }
 
