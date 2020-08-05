@@ -1,68 +1,94 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Resto</title>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE-edge">
 	<meta name="viewreport" content="width=device-width initial-scale=1">
+	<title>Sitara Resto</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
 	<header>
 		<nav id="header-nav" class="navbar navbar-default">
 			<div class="container">
 				<div class="navbar-header">
-					<a href="index.html" class="pull-left visible-lg visible-md">
-						<div id="logo-img" alt="Logo image"></div>
+					<a href="index.html" class="pull-left visible-lg visible-md visible-sm">
+						<div id="logo-img" alt="logo-img"></div>
 					</a>
 					<div class="navbar-brand">
 						<a href="index.html"><h1>Sitara Resto</h1></a>
-						<p><img src="images/star2.png" alt="IFC Certified"> IFC Certified</p>
+						<p><img src="images/star.png" alt="IFC Certified"> IFC Certified</p>
 					</div>
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
-						<span class="sr-only">Toggle navigation</span>
+						<span class="sr-only">Toggle Navigation</span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
 				</div>
 				<div id="collapsable-nav" class="collapse navbar-collapse">
-           <ul id="nav-list" class="nav navbar-nav navbar-right">
-            <li>
-              <a href="menu-categories.html">
-                <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu</a>
-            </li>
-            <li>
-              <a href="#">
-                <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About</a>
-            </li>
-            <li>
-              <a href="#">
-                <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Awards</a>
-            </li>
-            <li id="phone" class="hidden-xs">
-              <a href="tel:410-602-5008">
-                <span> 410-602-5008</span></a>
-                <div>* We Deliver</div>
-            </li>
-          </ul><!-- #nav-list -->
-        </div><!-- .collapse .navbar-collapse -->
-      </div><!-- .container -->
-    </nav><!-- #header-nav -->
-</header>
-<div id="call-btn" class="visible-xs">
-    <a class="btn" href="tel:410-602-5008">
-    <span class="glyphicon glyphicon-earphone"></span> 410-602-5008</a>
-  </div>
-  <div id="xs-deliver" class="text-center visible-xs">*We Deliver</div>
-  	<!-- jQuery (Bootstrap JS plugins depend on it) -->
+					<ul id="nav-list" class="nav navbar-nav navbar-right">
+						<li>
+							<a href="menu-categories.html"><span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu</a>
+						</li>
+						<li>
+							<a href="#"><span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About</a>
+						</li>
+						<li>
+							<a href="#"><span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Awards</a>
+						</li>
+						<li id="phone" class="hidden-xs">
+							<a href="tel:410-602-5008">
+								<span> 410-602-5008</span>
+								<div>*We Deliver</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div id="call-btn" class="visible-xs text-center">
+			<a class="btn" href="tel:410-602-5008">
+				<span class="glyphicon glyphicon-earphone"></span> 410-602-5008
+			</a>
+		</div>
+		<div id="xs-deliver" class="text-center visible-xs">*We Deliver</div>
+	</header>
+
+	<div id="main-content" class="container">
+		<div class="jumbotron">
+			<img src="images/jumbotron_768.jpg" alt="Picture of Resto" class="img-responsive visible-xs">
+		</div>
+		<div id="#home-tiles" class="row">
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<a href="menu-categories.html">
+					<div id="menu-tile"><span>menu</span></div>
+				</a>
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<a href="single-menu.html">
+					<div id="specials-tile"><span>specilas</span></div>
+				</a>
+			</div>
+			<div class="col-md-4 col-sm-12 col-xs-12">
+				<a href="https://goo.gl/maps/JN2TqaZzwXUxJBLr6">
+					<div id="map-tile"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3810.333929062613!2d80.15399514999753!3d17.25107221120584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3459c51a201a3b%3A0x230adf1fd0bf07ba!2sSri%20Haveli%20Family%20Restaurant!5e0!3m2!1sen!2sin!4v1596651763542!5m2!1sen!2sin" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe><span>map</span></div>
+				</a>
+			</div>
+		</div>
+	</div>
+	<footer class="panel-footer">
+		<div class="container">
+			<div class="row"></div>
+		</div>		
+	</footer>
+	<!-- jQuery (Bootstrap JS plugins depend on it) -->
+    <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-2.1.4.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
-  <script src="js/script.js"></script>
-
 
 </body>
 </html>
