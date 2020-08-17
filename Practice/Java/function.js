@@ -32,7 +32,7 @@
 // console.log("Area:" + myCircle.getArea());
 
 var literalCircle = {
-	radius = '10',
+	radius =10,
 	getArea: function() {
 		var self=this;
 		console.log(this);
