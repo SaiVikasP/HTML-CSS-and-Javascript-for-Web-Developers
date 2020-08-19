@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  
+	<title>Message Board</title>
+	<style type="text/css">
+		body {
+			align-items: center;
+			padding-top:10%;
+			padding-left: 33.33%;
+			background-color: papayawhip;
+		}
+		
+		#title {
+			text-align: center;
+			border-bottom: 1px solid black;
+			/*width: 300px;*/
+			color: midnightblue;
+			font-weight: bold;
+			margin: 15px
+		}
+		
+		#output {
+			text-align: center;
+			color: red;
+			padding-top: 10px;
+		}
+		#output2 {
+			color: maroon;
+			font-size: 20px;
+		}
+
+		.box {
+			width: 40%;
+			padding:10% 30% auto 30%;
+			position: top;
+			border: 2px solid purple;
+			background-color: lightblue;
+			border-radius: 10px;
+			min-height: 450px;
+			/*height: 400px;*/
+
+		}
+		#name {
+			margin-top:  5px;
+		}
+		.username {
+			width: 330px;
+			margin: 10px;
+		}
+		.content {
+			width: 90%;
+			border: 1px solid black;
+			border-radius: 5px;
+			min-height: 70px;
+			margin: 10px;
+			background-color: white;
+		}
+		p{
+			text-align: center;
+			padding: 10px;
+		}
+		.text-center {
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<section class="box">
+		<h2 id="title">Message Board</h2>
+		<div class="username">
+			<div>Say hai to</div>
+			<input type="text" id="name">
+			<button onclick="sayHai();">
+				send
+			</button>
+		</div>
+		<div class="content">
+			Message
+			<div id="output"></div>
+
+		</div>
+				
+		<div style="border-top: 1px solid black;margin: 15px;height: 80px">
+			
+			<h4>Learn awesome programs</h4>
+			<div class="">
+			<button onclick="showLink();">
+				Click here for course details
+			</button>
+			<a href="https://www.coursera.org/programs/sastra-deemed-university-on-coursera-ogyri" target="_blank">
+				<div id="output2" class="text-center"></div>
+			</a>
+			</div>
+				
+			<div style="padding: 20px 0 15px;">
+				Click on the link to get into course!
+			</div>
+		</div>
+	</section>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
