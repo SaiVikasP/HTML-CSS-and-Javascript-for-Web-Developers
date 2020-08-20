@@ -2,7 +2,10 @@ function sayHai() {
 	this.textContent="Said it!"
 	var name =
 		document.getElementById("name").value;
-		var message="<h2>Hai "+name+"!</h2>"+" Click on message board for new message";
+	var message="<h2>Hai "+name+"!</h2>"+" Click on message board for new message";
+
+	if (name==="Anna"||name==="anna")
+		message="<h3>My sweet sister said,</h3>"+message;
 	document
 		.getElementById("output")
 		.innerHTML=message;
@@ -20,6 +23,11 @@ function showLink() {
 	document
 		.getElementById("output2")
 		.innerHTML=link;
+	var msg=document.querySelector("#msg").textContent;
+	msg="";
+	document
+		.querySelector("#msg")
+			.textContent=msg;
 }
 document.querySelector('button > a')
 	.addEventListener("click",showLink);
