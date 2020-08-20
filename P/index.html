@@ -7,6 +7,7 @@
 	<style type="text/css">
 		body {
 			align-items: center;
+			box-sizing: border-box;
 			padding-top:10%;
 			padding-left: 33.33%;
 			background-color: papayawhip;
@@ -19,11 +20,15 @@
 			font-weight: bold;
 			margin: 15px
 		}
-		
+		#output h3 {
+			color: firebrick;
+			margin-bottom: 0;
+		}
 		#output h2 {
 			text-align: center;
 			color: red;
 			padding-top: 10px;
+			margin-top: 0;
 		}
 		#output2 {
 			color: maroon;
@@ -33,12 +38,12 @@
 		.box {
 			width: 50%;
 			padding:10% 15% auto 15%;
-			position: top;
 			border: 2px solid purple;
 			background-color: lightblue;
 			border-radius: 10px;
-			min-height: 450px;
-			/*height: 400px;*/
+			/*min-height: 300px;
+			max-height: 450px;*/
+			height: 450px;
 
 		}
 		#name {
@@ -66,7 +71,7 @@
 	</style>
 </head>
 <body>
-	<section class="box">
+	<div class="box">
 		<a href="index.html" style="text-decoration: none;">
 			<h2 id="title">Message Board</h2>
 		</a>
@@ -99,7 +104,7 @@
 				Click on the link to get into course!
 			</div>
 		</div>
-	</section>
+	</div>
 	<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
