@@ -15,13 +15,12 @@
 		#title {
 			text-align: center;
 			border-bottom: 1px solid black;
-			/*width: 300px;*/
 			color: midnightblue;
 			font-weight: bold;
 			margin: 15px
 		}
 		
-		#output {
+		#output h2 {
 			text-align: center;
 			color: red;
 			padding-top: 10px;
@@ -68,17 +67,19 @@
 </head>
 <body>
 	<section class="box">
-		<h2 id="title">Message Board</h2>
+		<a href="index.html" style="text-decoration: none;">
+			<h2 id="title">Message Board</h2>
+		</a>
 		<div class="username">
 			<div>Say hai to</div>
 			<input type="text" id="name">
-			<button onclick="sayHai();">
+			<button>
 				send
 			</button>
 		</div>
 		<div class="content">
 			Message
-			<div id="output"></div>
+			<div id="output" class="text-center"></div>
 
 		</div>
 				
@@ -86,8 +87,8 @@
 			
 			<h4>Learn awesome programs</h4>
 			<div class="">
-			<button onclick="showLink();">
-				Click here for course details
+			<button>
+				<a>Click here</a>
 			</button>
 			<a href="https://www.coursera.org/programs/sastra-deemed-university-on-coursera-ogyri" target="_blank">
 				<div id="output2" class="text-center"></div>
