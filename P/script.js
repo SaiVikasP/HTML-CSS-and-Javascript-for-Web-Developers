@@ -7,7 +7,8 @@ function sayHai() {
 	if (name==="Anna"||name==="anna")
 		message="<h3>My sweet sister said,</h3>"+message;
 	else if (name==="Preethi") {
-		message="<h3>Preethi is gorgrous!</h3>"+message;
+		message="<h4>Preethi is gorgrous! She is intelligent too... My creator likes her a lot.</h4>"
+				+"<h2>Hai "+name+" madam!</h2>";
 	}
 	else if (name==="Sai Vikas"||name==="Vikas"||name==="Sai vikas"||name==="Sai")
 		message="<h3>He's the creator, gave me life!</h3>"+
