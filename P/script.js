@@ -10,7 +10,8 @@ function sayHai() {
 		message="<h3>Preethi is gorgrous!</h3>"+message;
 	}
 	else if (name==="Sai Vikas"||name==="Vikas"||name==="Sai vikas"||name==="Sai")
-		message="<h3>He's the creator, gave me life!</h3>"+message;
+		message="<h3>He's the creator, gave me life!</h3>"+
+				"<h2>Hai "+name+" sir!</h2>"+" Click on message board for new message";
 	document
 		.getElementById("output")
 		.innerHTML=message;
