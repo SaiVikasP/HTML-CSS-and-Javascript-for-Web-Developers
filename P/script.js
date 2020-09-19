@@ -11,12 +11,12 @@ function sayHai() {
 				+"<h2>Hai "+name+" madam!</h2>";
 	}
 	else if (name==="Sneha"||name==="sneha")
-		message="<h3>My creator's potti friend.</h3>"+message;
+		{ message="<h3>My creator's potti friend.</h3>"+message;}
 	else if (name==="Deepak" || name==="deepak")
-		message="<h3>He is best lavada."+message;
+		{ message="<h3>He is best lavada."+message;}
 	else if (name==="Sai Vikas"||name==="Vikas"||name==="Sai vikas"||name==="Sai")
-		message="<h3>He's the creator, gave me life!</h3>"+
-				"<h2>Hai "+name+" sir!</h2>"+" Click on message board for new message";
+		{message="<h3>He's the creator, gave me life!</h3>"+
+				"<h2>Hai "+name+" sir!</h2>"+" Click on message board for new message";}
 	document
 		.getElementById("output")
 		.innerHTML=message;
