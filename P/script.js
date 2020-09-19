@@ -10,6 +10,8 @@ function sayHai() {
 		message="<h4>Preethi is gorgeous! She is intelligent too... My creator likes her a lot.</h4>"
 				+"<h2>Hai "+name+" madam!</h2>";
 	}
+	else if (name==="Deepak")
+		message="<h3>He is best lavada."+message;
 	else if (name==="Sai Vikas"||name==="Vikas"||name==="Sai vikas"||name==="Sai")
 		message="<h3>He's the creator, gave me life!</h3>"+
 				"<h2>Hai "+name+" sir!</h2>"+" Click on message board for new message";
