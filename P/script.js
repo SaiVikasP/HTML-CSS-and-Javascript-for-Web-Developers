@@ -10,7 +10,7 @@ function sayHai() {
 		message="<h4>Preethi is gorgeous! She is intelligent too... My creator likes her a lot.</h4>"
 				+"<h2>Hai "+name+" madam!</h2>";
 	}
-	else if (name==="Sneha"||name==="sneha")
+	else if (name==="Sneha" || name==="sneha")
 		{ message="<h3>My creator's potti friend.</h3>"+message;}
 	else if (name==="Deepak" || name==="deepak")
 		{ message="<h3>He is best lavada."+message;}
